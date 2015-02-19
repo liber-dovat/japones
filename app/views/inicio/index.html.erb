@@ -1,1 +1,26 @@
-<h1>こんにちは, 日本語!</h1>
+
+<%= stylesheet_link_tag "bootswatch_superhero.css" %>
+<%= stylesheet_link_tag "login.css" %>
+
+<div class="container">
+   
+   <div class="well bs-container">
+      <img class="logo-grande" src="./images/LES-Gris-completo-chico.png" alt="LES logo"/>
+
+      <form class="form-horizontal form-signin" id="myForm" action="login-func" method="post">
+         <h2 class="form-signin-heading">Iniciar sesión</h2>
+         <label for="inputEmail" class="sr-only">Dirección de correo</label>
+         <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Dirección de correo" required autofocus>
+         <label for="inputPassword" class="sr-only">Contraseña</label>
+         <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Contraseña" required>
+         <input class="btn btn-lg btn-primary btn-block" type="submit" id="login" value="Iniciar" /> 
+      </form>
+   </div>
+
+   <div class="error alert alert-dismissable alert-danger" id="error">
+      <button type="button" class="close" id="close" data-dismiss="alert">×</button>
+      <div id="mensaje"></div>
+   </div>
+
+</div>
+
