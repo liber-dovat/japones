@@ -3,7 +3,16 @@ mostrar uno al azar, dando la opción de mostrar la respuesta al hacer :hover so
 un botón tiene la opción de "mostrar uno nuevo".
 se puede volver a los vistos anteriormente, a modo de historial.
 
+Usarlo como diccionario?
+
 crear la base de datos de kanjis.
 crear la base de datos de vocabulario.
 
 poblar las bases en el primer inicio luego del deploy.
+
+http://css-tricks.com/tabs-with-round-out-borders/
+http://css-tricks.com/examples/ShapesOfCSS/
+http://stackoverflow.com/questions/12710708/rounded-trapezoid-with-css
+http://www.inpixelitrust.fr/blog/en/flexible-tabs-menu-using-border-image-css3-property/
+http://coursesweb.net/css/trapezoid-shape_cs
+http://www.csse.monash.edu.au/~jwb/wwwjdicinf.html
