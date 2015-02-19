@@ -1,0 +1,9 @@
+crear página de inicio con kanjis.
+mostrar uno al azar, dando la opción de mostrar la respuesta al hacer :hover sobre la pestaña de abajo.
+un botón tiene la opción de "mostrar uno nuevo".
+se puede volver a los vistos anteriormente, a modo de historial.
+
+crear la base de datos de kanjis.
+crear la base de datos de vocabulario.
+
+poblar las bases en el primer inicio luego del deploy.
