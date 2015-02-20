@@ -16,3 +16,5 @@ http://stackoverflow.com/questions/12710708/rounded-trapezoid-with-css
 http://www.inpixelitrust.fr/blog/en/flexible-tabs-menu-using-border-image-css3-property/
 http://coursesweb.net/css/trapezoid-shape_cs
 http://www.csse.monash.edu.au/~jwb/wwwjdicinf.html
+
+bundle exec rake assets:precompile

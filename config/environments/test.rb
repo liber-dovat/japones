@@ -23,6 +23,9 @@ Rails.application.configure do
   # Raise exceptions instead of rendering exception templates.
   config.action_dispatch.show_exceptions = false
 
+  # Disable Rails's static asset server (Apache or nginx will already do this).
+  config.serve_static_files = true
+  
   # Disable request forgery protection in test environment.
   config.action_controller.allow_forgery_protection = false
 

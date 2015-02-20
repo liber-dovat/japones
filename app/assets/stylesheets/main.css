@@ -1,44 +1,39 @@
 body {
-  padding-top: 20vh;
+  /*padding-top: 5vh;*/
 }
 
-.well, .error {
-  max-width: 330px;
-  margin: 0 auto;
+.header {
+  text-align: center;
+  padding-top: 2%;
 }
 
-.error {
-  margin-top: 20px;
+.ventana {
+  padding-top: 15%;
 }
 
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-  margin-bottom: 10px;
+.kanji {
+  font-size: 15vh;
+/*   font-size: 6.8vw; */
+  text-align: center;
 }
-.form-signin .checkbox {
-  font-weight: normal;
+
+.siguiente, .previo {
+  font-size: 5vh;
+  padding-top: 5%;
 }
-.form-signin .form-control {
-  position: relative;
-  height: auto;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
+
+.previo {
+  text-align: left;
 }
-.form-signin .form-control:focus {
-  z-index: 2;
+
+.siguiente {
+  text-align: right;
 }
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+
+.respuesta {
+  font-size: 7vh;
+  padding-top: 25%;   
+  text-align: center;
 }
 
 .logo-grande {
