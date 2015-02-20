@@ -60,9 +60,9 @@ body {
    }
 
    .siguiente, .previo {
-      padding-top: 8vh;
+      /*padding-top: 4vh;*/
    }
 
    .respuesta {
-      padding-top: 35vh;   
+      padding-top: 30vh;   
    }
