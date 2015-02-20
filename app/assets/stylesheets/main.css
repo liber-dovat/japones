@@ -1,5 +1,6 @@
 body {
   /*padding-top: 5vh;*/
+/*   padding-bottom: 70px;  */
 }
 
 /* Fuentes */
@@ -64,5 +65,6 @@ body {
    }
 
    .respuesta {
-      padding-top: 23vh;   
+/*       padding-top: 15%; */
+
    }
