@@ -1,8 +1,3 @@
-body {
-  /*padding-top: 5vh;*/
-/*   padding-bottom: 70px;  */
-}
-
 /* Fuentes */
 
 .header {
@@ -11,7 +6,6 @@ body {
 
 .kanji {
   font-size: 15vh;
-/*   font-size: 6.8vw; */
   text-align: center;
 }
 
@@ -34,37 +28,10 @@ body {
 
 /* Paddings */
 
-/*   .header {
-      padding-top: 2%;
-   }
+.header {
+    padding-top: 2vh;
+}
 
-   .ventana {
-      padding-top: 15%;
-   }
-
-   .siguiente, .previo {
-      padding-top: 5%;
-   }
-
-   .respuesta {
-      padding-top: 20%;   
-   }*/
-
-/* ######################## */
-   
-   .header {
-      padding-top: 2vh;
-   }
-
-   .ventana {
-      padding-top: 25vh;
-   }
-
-   .siguiente, .previo {
-      /*padding-top: 4vh;*/
-   }
-
-   .respuesta {
-/*       padding-top: 15%; */
-
-   }
+.ventana {
+    padding-top: 25vh;
+}
