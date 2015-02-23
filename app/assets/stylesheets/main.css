@@ -24,6 +24,7 @@
 .respuesta {
   font-size: 7vh;
   text-align: center;
+/*   height: 1vh; */
 }
 
 /* Paddings */
@@ -45,5 +46,5 @@
 .menu_tab {
    position: relative;
 /*    height: 2vh; */
-   width: 25%;
+   width: 25vw;
 }
