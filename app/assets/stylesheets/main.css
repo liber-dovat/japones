@@ -161,7 +161,7 @@ p.tab::before {
   -moz-border-radius-topleft: 20px;
   -moz-border-radius-topright: 20px;
   border-top-left-radius: 20px;
-  border-top-right-radius: 20px; 
+  border-top-right-radius: 20px; transform: perspective(4px) rotateX(1deg);  
 }
 
 .tabs .active a { 
@@ -178,8 +178,6 @@ p.tab::before {
 }
 /* Only the first, last, and active
    tabs need pseudo elements at all */
-.tabs li:last-child:after,   .tabs li:last-child a:after,
-.tabs li:first-child:before, .tabs li:first-child a:before,
 .tabs .active:after,   .tabs .active:before, 
 .tabs .active a:after, .tabs .active a:before {
   content: "";
@@ -214,6 +212,7 @@ p.tab::before {
   
   /* Circles over squares */
   z-index: 2;
+  
 }
 .tabs .active a:after, .tabs .active a:before {
   background: #2B3E50;
@@ -223,4 +222,8 @@ p.tab::before {
 }
 .tabs li a:after {
   right: -40px;
+}
+
+.chr::before {
+  
 }
