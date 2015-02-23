@@ -103,3 +103,124 @@
     width: 1000px;
     border-top-right-radius: 40px;
 }
+
+/* CHR */
+
+/**
+ * Easy trapezoids with 3D transforms
+ * http://lea.verou.me/2013/10/slanted-tabs-with-css-3d-transforms/
+ */
+
+p {
+   position: relative;
+   display: inline-block;
+/*    padding: 1em; */
+/*    margin: 2em; */
+}
+
+p::before {
+   content: ''; /* To generate the box */
+   position: absolute;
+   top: 0; right: 0; bottom: 0; left: 0;
+   z-index: -1;
+   background: skyblue; 
+   transform: perspective(4px) rotateX(1deg);
+}
+
+p.tab::before {
+   /* Tip by @krofdrakula */
+   border-radius: 40px 40px 0 0;
+}
+
+/*  
+ * http://css-tricks.com/tabs-with-round-out-borders/
+ */
+
+.tabs li { 
+  /* Makes a horizontal row */
+  float: left; 
+  list-style-type: none;
+  /* So the psueudo elements can be
+     abs. positioned inside */
+  position: relative; 
+}
+.tabs a { 
+  /* Make them block level
+     and only as wide as they need */
+  float: left; 
+  padding: 10px 40px; 
+  text-decoration: none;
+  
+  /* Default colors */ 
+  color: black;
+  background: #2B3E50; 
+  
+  /* Only round the top corners */
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; 
+}
+
+.tabs .active a { 
+  /* Colors when tab is active */
+  background: white; 
+  color: black; 
+}
+.tabs li:before, .tabs li:after, 
+.tabs li a:before, .tabs li a:after {
+  /* All pseudo elements are 
+     abs. positioned and on bottom */
+  position: absolute;
+  bottom: 0;
+}
+/* Only the first, last, and active
+   tabs need pseudo elements at all */
+.tabs li:last-child:after,   .tabs li:last-child a:after,
+.tabs li:first-child:before, .tabs li:first-child a:before,
+.tabs .active:after,   .tabs .active:before, 
+.tabs .active a:after, .tabs .active a:before {
+  content: "";
+}
+.tabs .active:before, .tabs .active:after {
+  background: white; 
+  
+  /* Squares below circles */
+  z-index: 1;
+}
+/* Squares */
+.tabs li:before, .tabs li:after {
+  background: #2B3E50;
+  width: 20px;
+  height: 20px;
+}
+.tabs li:before {
+  left: -20px;      
+}
+.tabs li:after { 
+  right: -20px;
+}
+/* Circles */
+.tabs li a:after, .tabs li a:before {
+  width: 40px; 
+  height: 40px;
+  /* Circles are circular */
+  -webkit-border-radius: 20px;
+  -moz-border-radius:    20px;
+  border-radius:         20px;
+  background: #222;
+  
+  /* Circles over squares */
+  z-index: 2;
+}
+.tabs .active a:after, .tabs .active a:before {
+  background: #2B3E50;
+}
+.tabs li a:before {
+  left: -40px;
+}
+.tabs li a:after {
+  right: -40px;
+}
