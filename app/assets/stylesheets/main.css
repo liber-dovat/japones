@@ -5,27 +5,28 @@
 }
 
 .kanji {
-  text-align: center;
   font-size: 15vh;
+  text-align: center;
 }
 
 .siguiente, .previo {
-   font-size: 4vh;
+  font-size: 4vh;
 }
 
 .respuesta {
   font-size: 7vh;
   text-align: center;
+/*   height: 1vh; */
 }
 
 /* Paddings */
 
 .header {
-/*     padding-top: 2vh; */
+    padding-top: 2vh;
 }
 
 .ventana {
-/*     padding-top: 25vh; */
+    padding-top: 25vh;
 }
 
 /* Tab */
@@ -37,65 +38,10 @@
 .menu_tab {
    position: relative;
 /*    height: 2vh; */
-/*    width: 25vw; */
+   width: 200px;
 }
 
-/* MEDIA */
-
-/*
- * Min-Width: Refers to everything greater than or equal to the amount given.
- * Max-Width: Refers to everything less than or equal to the amount given.
-*/
-
-/*@media (max-width: 1700px) {
-   .kanji {
-      font-size: 15vh;
-   }
-   
-   .siguiente, .previo {
-      font-size: 4vh;
-  }
-  
-   .header {
-       padding-top: 10px;
-   }
-
-   .ventana {
-       padding-top: 150px;
-   }
+.panel {
+      padding: 0;
+/*    height: 100px; */
 }
-
-@media (max-width: 1000px) {
-   .kanji {
-      font-size: 7vh;
-   }
-   
-   .siguiente, .previo {
-      font-size: 4vh;
-  }
-  
-   .header {
-       padding-top: 10px;
-   }
-
-   .ventana {
-       padding-top: 10px;
-   }
-}
-@media (max-width: 500px) {
-   .kanji {
-      font-size: 7vh;
-   }
-   
-   .siguiente, .previo {
-      font-size: 2vh;
-  }
-  
-   .header {
-       padding-top: 20px;
-   }
-
-   .ventana {
-       padding-top: 250px;
-   }
-}*/
