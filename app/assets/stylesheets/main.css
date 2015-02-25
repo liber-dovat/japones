@@ -46,6 +46,7 @@
 .panel {
    padding: 0;
    margin: 0;
+   height: 0px;
 /*    height: 150px; */
    /* Only round the top corners */
    -webkit-border-top-left-radius: 30px;
@@ -82,7 +83,7 @@
 }
 
 .accordion-inner{
-  padding: 0 15px;
+/*   padding: 0 15px; */
 }
 
 .accordion-toggle{
@@ -91,15 +92,7 @@
   -ms-transition: background .1s linear;   
   -o-transition: background .1s linear;   
   transition: background .1s linear;   
-  background: #00b8c9;
-  border-radius: 3px;
-  color: #fff;
-  display: block;
-  font-size: 30px;
-  margin: 0 0 10px;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
+  background: #e5feff;
   
   &:hover{
     background: darken(#00b8c9, 15%);
