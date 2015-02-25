@@ -14,7 +14,7 @@
    viewBox="0 0 180 30"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="tab.svg">
   <defs
      id="defs4" />
@@ -39,10 +39,10 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:object-nodes="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:window-width="1440"
-     inkscape:window-height="834"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-width="1600"
+     inkscape:window-height="846"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,7 +66,7 @@
      id="layer1"
      transform="translate(-172.16211,-401.55078)">
     <path
-       style="opacity:1;fill-opacity:1;fill-rule:nonzero"
+       style="opacity:1;fill-opacity:1;fill-rule:nonzero;fill:#e6e6e6"
        d="m 232.16211,401.55078 c -16.9753,0 -34.95911,30 -60,30 l 180,0 c -25.04089,0 -43.0247,-30 -60,-30 z"
        id="tab"
        inkscape:connector-curvature="0"

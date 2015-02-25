@@ -2,7 +2,8 @@
 // All this logic will automatically be available in application.js.
 
 function toggle_visibility(id) {
-    $(id).stop().animate({height:'toggle'}, 500);
+   alert("¡Mensaje! 2 " + id);
+   $(id).stop().animate({height:'toggle'}, 500);
 }
 
 // $('#tab').click(function() {
@@ -10,7 +11,8 @@ function toggle_visibility(id) {
 //    toggle_visibility('#panel');
 // });
 
-$('#tab').on('click', function() {
+$('#tab').click(function() {
    console.log("$('#tab').click");
+   alert("¡Mensaje!");
    toggle_visibility('#panel');
 });

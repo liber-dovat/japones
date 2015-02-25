@@ -51,3 +51,21 @@
       </div>
    </div>
 </div>
+
+<script>
+   function toggle_visibility(id) {
+//       alert("¡Mensaje2! " + id);
+//       $(id).stop().animate({height:'toggle'}, 500);
+      $(id).animate({height:'toggle'});
+   }
+
+   $('#tab').on("click", function() {
+      console.log("$('#tab').click");
+//       alert("¡Mensaje!");
+      toggle_visibility('#panel');
+   });
+
+   $(document).ready(function(){
+      $('#panel').hide();
+   });
+</script>
