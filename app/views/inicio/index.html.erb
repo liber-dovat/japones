@@ -9,12 +9,8 @@
          </div>
          <div class="row clearfix ventana">
 
-            <div class="col-md-4 column">
-            </div>
-            <div class="col-md-4 column kanji">
+            <div class="col-md-4 col-md-push-4 column kanji">
                日本語
-            </div>
-            <div class="col-md-4 column">
             </div>
 
             <div class="row clearfix">
@@ -25,11 +21,8 @@
                         <li><a href="#">Previo</a></li>
                     </ul>
                   </div>
-     
-                  <div class="col-xs-4 column">
-                  </div>
-                  
-                  <div class="col-xs-4 column siguiente">
+                 
+                  <div class="col-xs-4 col-md-push-4 column siguiente">
                     <ul class="pager">
                         <li><a href="#">Siguiente</a></li>
                     </ul>
@@ -40,16 +33,23 @@
 
          </div>
 
-         <div class="row clearfix  respuesta">
-            <div class="col-md-12 column">
-               <div >
-                <%= image_tag("tab.svg", :alt => "svg tab", class: "menu_tab") %>
+         <div class="row clearfix navbar-fixed-bottom respuesta">
+            <div class="row clearfix">
+               <div class="col-md-12 column">
+                  <div >
+                  <%= image_tag("tab.svg", :alt => "svg tab", class: "menu_tab btn") %>
+                  </div>
                </div>
             </div>
-            <div class="col-md-12 column panel">
+            <div class="row clearfix">
+               <div class="col-md-6 col-md-push-3 column panel">
+                  <div>
+                     Contenido
+                  </div>
+               </div>
             </div>
          </div>
-         
+
       </div>
    </div>
 </div>
