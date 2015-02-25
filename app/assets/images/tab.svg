@@ -14,7 +14,7 @@
    viewBox="0 0 180 30"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="tab.svg">
   <defs
      id="defs4" />
@@ -25,8 +25,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.88046875"
-     inkscape:cx="4.8424069"
+     inkscape:zoom="2.2149292"
+     inkscape:cx="203.28131"
      inkscape:cy="-40.122796"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -39,10 +39,10 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:object-nodes="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="846"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="834"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -66,10 +66,10 @@
      id="layer1"
      transform="translate(-172.16211,-401.55078)">
     <path
-       style="opacity:1;fill-opacity:1;fill-rule:nonzero;fill:#e6e6e6"
-       d="m 232.16211,401.55078 c -16.9753,0 -34.95911,30 -60,30 l 180,0 c -25.04089,0 -43.0247,-30 -60,-30 z"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero"
+       d="m 232.16211,401.55078 c -16.9753,0 -34.95911,30 -60,30 l 0,7.5 180,0 0,-7.5 c -25.04089,0 -43.0247,-30 -60,-30 z"
        id="tab"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sccss" />
+       sodipodi:nodetypes="sccccss" />
   </g>
 </svg>

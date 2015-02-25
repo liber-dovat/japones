@@ -39,7 +39,7 @@
    height: 8vh;
    padding: 0;
    margin: 0;
-   margin-bottom:-7px;
+   margin-bottom:-10px;
 /*    height: 60px; */
 }
 
@@ -52,7 +52,7 @@
    padding: 0;
    margin: 0;
 /*    height: auto; */
-   height: 150px;
+   height: 25vh;
    overflow: hidden;
    background: #e6e6e6;
 /*    background: #4e5d6c; */
