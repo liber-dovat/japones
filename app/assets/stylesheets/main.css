@@ -8,6 +8,7 @@
 .kanji {
   font-size: 14vh;
   text-align: center;
+  color: #e6e6e6;
 }
 
 .siguiente, .previo {
@@ -56,6 +57,7 @@
    height: 25vh;
    overflow: hidden;
    background: #e6e6e6;
+/*    background: #4E5D6C; */
 /*    background: #4e5d6c; */
    color: black;
    
