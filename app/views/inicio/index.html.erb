@@ -3,51 +3,41 @@
    <div class="row clearfix">
       <div class="col-md-12 column">
          <div class="row clearfix header">
-            <div class="col-md-12 column">
-               Kanji -- Hiragana
+            <div class="col-xs-12 col-md-12 column">
+<!--                Kanji -- Hiragana -->
+               <%= image_tag("tab_nivel.svg", :alt => "svg nivel", class: "btn", id: "nivel") %>
+               <%= image_tag("tab_hiragana.svg", :alt => "svg tipo", class: "btn", id: "tipo") %>
             </div>
          </div>
-         <div class="row clearfix ventana">
 
+         <div class="row clearfix ventana">
             <div class="col-xs-12 col-md-12 column kanji">
                日本語
             </div>
-
             <div class="row clearfix">
                <div class="col-xs-12 col-md-12 column">
-
                   <div class="col-xs-6 col-md-4 column previo pull-left">
                     <ul class="pager">
                         <li><a href="#">Previo</a></li>
                     </ul>
                   </div>
-                 
                   <div class="col-xs-6 col-md-4 column pull-right siguiente">
                     <ul class="pager">
                         <li><a href="#">Siguiente</a></li>
                     </ul>
                   </div>
-                  
                </div>
             </div>
-
          </div>
 
          <div class="row clearfix navbar-fixed-bottom respuesta">
             <div class="row clearfix">
                <div class="col-md-12 column">
-<!--                     <%= image_tag("tab.svg", :alt => "svg tab", class: "btn", id: "tab") %> -->
-                    <div id="tab2" class="btn">
-                        <div id="label">
-                           label
-                        </div>
-                    </div>
-               </div>
-            </div>
-            <div class="row clearfix accordion-content">
-               <div class="col-md-6 col-md-push-3 column" id="panel">
-                  <div>
-                     Contenido
+                  <%= image_tag("tab_response.svg", :alt => "svg tab", class: "btn", id: "tab") %>
+                  <div class="col-md-6 col-md-push-3 column" id="panel_respuesta">
+                     <div>
+                        Contenido
+                     </div>
                   </div>
                </div>
             </div>
@@ -64,13 +54,13 @@
       $(id).animate({height:'toggle'});
    }
 
-   $('#tab2').on("click", function() {
-      console.log("$('#tab2').click");
+   $('#tab').on("click", function() {
+      console.log("$('#tab').click");
 //       alert("¡Mensaje!");
-      toggle_visibility('#panel');
+      toggle_visibility('#panel_respuesta');
    });
 
    $(document).ready(function(){
-      $('#panel').hide();
+      $('#panel_respuesta').hide();
    });
 </script>
