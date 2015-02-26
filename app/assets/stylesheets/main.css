@@ -47,14 +47,35 @@
    width: 100%; /* for IE 6 */
 }
 
-/*#label{
-   font-size: 4vh;
+#tab2{
+/*-moz-transform-origin: 0% 0%; 
+-moz-transform: rotateX( 90deg ); */
+   -moz-transform: perspective(500px) scaleZ(2) rotateX(45deg);
+   height: 10vh;
+   padding: 0;
+   margin: 45%;
+   margin-bottom:-10px;
+   color: black;
+   position: relative; 
+   width: 10vw; /* for IE 6 */
+   background: #e6e6e6;
+   
+   -webkit-border-top-left-radius: 20px;
+   -webkit-border-top-right-radius: 20px;
+   -moz-border-radius-topleft: 20px;
+   -moz-border-radius-topright: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px; 
+}
+
+#label{
+   font-size: 6vh;
    position: absolute; 
-   top: 3.5vh; 
+/*    top: 3.5vh;  */
    left: 0; 
    width: 100%; 
    color: black;
-}*/
+}
 
 #panel {
    padding: 0;
