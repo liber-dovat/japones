@@ -18,3 +18,7 @@ http://coursesweb.net/css/trapezoid-shape_cs
 http://www.csse.monash.edu.au/~jwb/wwwjdicinf.html
 
 bundle exec rake assets:precompile
+
+http://guides.rubyonrails.org/v3.2.21/migrations.html
+rails generate model content content_id:auto-generated, law_id:integer, parent_id:integer, titel:string, text:string, content:string, url:string
+just fill up db/seeds.rb with some Ruby code, and run rake db:seed:
