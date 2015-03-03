@@ -18,13 +18,13 @@
 .respuesta {
   font-size: 7vh;
   text-align: center;
-/*   height: 1vh; */
 }
 
 /* Paddings */
 
-.header {
-    padding-top: 2vh;
+#header {
+/*     position: relative;  */
+/*     margin-left: 10vw; */
 }
 
 .ventana {
@@ -39,14 +39,34 @@
 
 #nivel{
    height: 6vh;
-   margin: 0;
-   margin-top:-4vh;
+/*    position: relative;  */
 }
 
 #tipo{
    height: 6vh;
-   margin: 0;
-   margin-top:-4vh;
+/*    position: relative;  */
+}
+
+#nivel-div {
+    float: left;
+}
+
+#tipo-div {
+    float: left;
+}
+
+#nivel-contenido {
+/*     margin-left: 5vw; */
+    height: 75px;
+    width: 100%;
+    background: blue;
+}
+
+#tipo-contenido {
+/*     margin-left: 20vw; */
+    height: 100px;
+    width: 100%;
+    background: red;
 }
 
 #tab{
