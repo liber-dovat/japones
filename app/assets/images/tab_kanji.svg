@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="300"
+   width="340"
    height="60"
-   viewBox="0 0 150 30"
+   viewBox="0 0 170 30"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="tab_nivel.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tab_kanji.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,12 +25,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.1323829"
-     inkscape:cx="109.76237"
-     inkscape:cy="50.609335"
+     inkscape:zoom="1.3929828"
+     inkscape:cx="204.23617"
+     inkscape:cy="-34.717696"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -39,17 +39,23 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:object-nodes="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="846"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="834"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-global="true"
-     inkscape:snap-page="true" />
+     inkscape:snap-page="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4136"
+       originx="10.000001"
+       originy="0" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,7 +72,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-202.16211,-401.55078)">
+     transform="translate(-192.16211,-401.55078)">
     <path
        style="fill:#4e5d6c;fill-opacity:1;fill-rule:nonzero"
        d="m 262.16211,431.55078 c -16.9753,0 -34.95911,-30 -60,-30 l 150,0 c -25.04089,0 -43.0247,30 -60,30 z"
@@ -75,7 +81,7 @@
        sodipodi:nodetypes="sccss" />
     <text
        xml:space="preserve"
-       style="font-size:16.44843674px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#E6E6E6;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       style="font-style:normal;font-weight:normal;font-size:16.44843674px;line-height:125%;font-family:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke:none"
        x="277.12195"
        y="423.10971"
        id="text2983"

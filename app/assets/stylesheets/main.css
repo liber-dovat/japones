@@ -22,12 +22,16 @@
 
 /* Paddings */
 
-#header {
+#menues {
 }
 
 #menu{
-/*     float: none; */
-    margin: 0 auto;
+  text-align: center;
+  float:none
+}
+
+#centrado {
+    width: 100%;
 }
 
 .ventana {
@@ -42,34 +46,54 @@
 
 #nivel{
    height: 6vh;
-/*    position: relative;  */
+   margin-bottom:30px;
+   z-index: 3;
 }
 
 #tipo{
    height: 6vh;
-/*    position: relative;  */
+   margin-bottom:30px;
+   z-index: 3;
 }
 
 #nivel-div {
     float: left;
+    padding: 0;
+    z-index: 2;
 }
 
 #tipo-div {
-    float: left;
+    float: right;
+    padding: 0;
+    z-index: 2;
 }
 
 #nivel-contenido {
-/*     margin-left: 5vw; */
+    margin-bottom: -0.2vh;
     height: 75px;
     width: 100%;
-    background: blue;
+    background: #4e5d6c;
+    
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 20px;
+   -moz-border-radius-bottomleft: 20px;
+   -moz-border-radius-bottomright: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px; 
 }
 
 #tipo-contenido {
-/*     margin-left: 20vw; */
+    margin-bottom: -0.2vh;
     height: 100px;
     width: 100%;
-    background: red;
+    background: #4e5d6c;
+    
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 20px;
+   -moz-border-radius-bottomleft: 20px;
+   -moz-border-radius-bottomright: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px; 
 }
 
 #tab{
