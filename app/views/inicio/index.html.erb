@@ -5,27 +5,28 @@
          <div class="row clearfix">
             <nav class="navbar navbar-fixed-top" id="header">
                 <div class="col-lg-6
-                            col-md-6
+                            col-md-8
+                            col-xs-12
                             center-block" id="menu">
 <!--                             TEXTO -->
                     <div id="nivel-div">
                         <div id="nivel-contenido" class="contenido">
-                            <div class="btn-group-vertical">
+                            <div class="btn-group-vertical btn-block" id="nivel-grupo">
                                 <a class="btn btn-default" href="#">N1</a>
                                 <a class="btn btn-default" href="#">N2</a>
                                 <a class="btn btn-default" href="#">N3</a>
                                 <a class="btn btn-default" href="#">N4</a>
-                                <a class="btn btn-default" href="#">N5</a>
+                                <a class="btn btn-default active" href="#">N5</a>
                             </div>
                         </div>
-                        <%= image_tag("tab_nivel.svg", :alt => "svg nivel", class: "btn", id: "nivel") %>
+                        <%= image_tag("tab_n5.svg", :alt => "svg nivel", class: "btn", id: "nivel") %>
                     </div>
                     
                     <div id="tipo-div">
                         <div id="tipo-contenido" class="contenido">
-                            <div class="btn-group-vertical">
+                            <div class="btn-group-vertical btn-block" id="tipo-grupo">
                                 <a class="btn btn-default" href="#">Kanji</a>
-                                <a class="btn btn-default" href="#">Hiragana</a>
+                                <a class="btn btn-default active" href="#">Hiragana</a>
                             </div>
                         </div>
                         <%= image_tag("tab_hiragana.svg", :alt => "svg tipo", class: "btn", id: "tipo") %>
