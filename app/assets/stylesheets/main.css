@@ -23,8 +23,11 @@
 /* Paddings */
 
 #header {
-/*     position: relative;  */
-/*     margin-left: 10vw; */
+}
+
+#menu{
+/*     float: none; */
+    margin: 0 auto;
 }
 
 .ventana {
