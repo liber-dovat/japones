@@ -13,6 +13,12 @@
 
 # N5
 
+# heroku run:detached rake db:migrate
+# heroku run:detached rake db:setup
+# heroku run:detached rake db:seed
+
+# heroku run:detached rake cache:clear
+
 Kanji.create(kanji: "一", hiragana: "いち", romaji: "ichi", nivel: 5, definicion: "uno", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "二", hiragana: "に", romaji: "ni", nivel: 5, definicion: "dos", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "三", hiragana: "さん", romaji: "san", nivel: 5, definicion: "tres", ejemplo1: "", ejemplo2: "")
