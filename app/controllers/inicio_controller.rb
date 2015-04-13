@@ -9,9 +9,9 @@ class InicioController < ApplicationController
 #     @kanji = Kanji.find_by(romaji: 'yon')
 #     http://stackoverflow.com/questions/2752231/random-record-in-activerecord
     offset = rand(Kanji.count)
-    @kanji = Kanji.offset(offset).first
+    @kanji_sig = Kanji.offset(offset).first
     
-    render :json => @kanji
+    render :json => @kanji_sig
   end
   
 end

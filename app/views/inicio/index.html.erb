@@ -75,6 +75,10 @@
 <script>
 
    $('#siguiente').on("click", function() {
+      $('#panel_respuesta').hide();
+      $('#nivel-contenido').hide();
+      $('#tipo-contenido').hide();
+
       var url = "/inicio/siguiente/";
       $.ajax({
          url: url,
@@ -93,6 +97,10 @@
    });
 
    $('#previo').on("click", function() {
+      $('#panel_respuesta').hide();
+      $('#nivel-contenido').hide();
+      $('#tipo-contenido').hide();
+
       console.log("$('#previo').click");
       // llamar por ajax
    });
