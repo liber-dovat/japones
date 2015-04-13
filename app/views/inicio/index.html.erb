@@ -36,20 +36,19 @@
          </div>
 
          <div class="row clearfix ventana">
-            <div class="col-xs-12 col-md-12 column kanji">
-<!--                日本語 -->
+            <div id="kanji" class="col-xs-12 col-md-12 column kanji">
               <%= @kanji["kanji"]%>
             </div>
             <div class="row clearfix">
                <div class="col-xs-12 col-md-12 column">
                   <div class="col-xs-6 col-md-4 column previo pull-left">
                     <ul class="pager">
-                        <li><a href="#">Previo</a></li>
+                        <li><a id="previo" href="#">Previo</a></li>
                     </ul>
                   </div>
                   <div class="col-xs-6 col-md-4 column pull-right siguiente">
                     <ul class="pager">
-                        <li><a href="#">Siguiente</a></li>
+                        <li><a id="siguiente" href="#">Siguiente</a></li>
                     </ul>
                   </div>
                </div>
@@ -90,6 +89,38 @@
 </div>
 
 <script>
+
+   $('#siguiente').on("click", function() {
+      $('#panel_respuesta').hide();
+      $('#nivel-contenido').hide();
+      $('#tipo-contenido').hide();
+
+      var url = "/inicio/siguiente/";
+      $.ajax({
+         url: url,
+         type: 'GET',
+         dataType: 'html',
+         success: function(result){
+            var msg = JSON.parse(result);
+//             console.log("inicio/siguiente");
+//             console.log(msg);
+            $("#kanji").empty();
+            $("#kanji").append(msg.kanji);
+            $("#panel_respuesta").empty();
+            $("#panel_respuesta").append(msg.definicion);
+         }
+      }); // ajax
+   });
+
+   $('#previo').on("click", function() {
+      $('#panel_respuesta').hide();
+      $('#nivel-contenido').hide();
+      $('#tipo-contenido').hide();
+
+      console.log("$('#previo').click");
+      // llamar por ajax
+   });
+
    function toggle_visibility(id) {
 //       alert("¡Mensaje2! " + id);
 //       $(id).stop().animate({height:'toggle'}, 500);
@@ -118,4 +149,15 @@
       $('#nivel-contenido').hide();
       $('#tipo-contenido').hide();
    });
+
+   function ajax(URL, successCallback, errorCallback){
+      $.ajax({
+         url: URL,
+         type: "GET",
+         dataType: "html",
+         success: successCallback,
+         error: errorCallback
+      }); // $.ajax
+   } // function ajax
+
 </script>
