@@ -62,7 +62,23 @@
                   <%= image_tag("tab_response.svg", :alt => "svg tab", class: "btn", id: "tab") %>
                   <div class="col-md-6 col-md-push-3 column" id="panel_respuesta">
                      <div>
-                        <%= @kanji["definicion"]%>
+                        <table>
+                        <tr>
+                            <th class="tg-031e"></th>
+                            <th class="tg-031e"><%= @kanji["definicion"]%></th>
+                            <th class="tg-031e"></th>
+                        </tr>
+                        <tr>
+                            <td class="tg-031e"><%= @kanji["hiragana"]%></td>
+                            <td class="tg-031e"><%= @kanji["romaji"]%></td>
+                            <td class="tg-031e"><%= @kanji["nivel"]%></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-031e"><%= @kanji["ejemplo1"]%></td>
+                            <td class="tg-031e"><%= @kanji["ejemplo2"]%></td>
+                            <td class="tg-031e"></td>
+                        </tr>
+                        </table>
                      </div>
                   </div>
                </div>
