@@ -67,7 +67,7 @@ Kanji.create(kanji: "午後", hiragana: "ごご", romaji: "Gogo", nivel: 5, defi
 Kanji.create(kanji: "午前", hiragana: "ごぜん", romaji: "Gozen", nivel: 5, definicion: "A la mañana, AM", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "半", hiragana: "はん", romaji: "Han", nivel: 5, definicion: "Mitad, medio", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "小さい", hiragana: "ちいさい", romaji: "Chisai", nivel: 5, definicion: "Pequeño, chico", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "少し", hiragana: "すこし、しょう", romaji: "Sukoshi, shou", nivel: 5, definicion: "De a poco, poca distancia", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "少し", hiragana: "すこし、しょう", romaji: "Sukoshi, shou", nivel: 5, definicion: "Poco, de a poco, poca distancia", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "食べる", hiragana: "たべる", romaji: "Taberu", nivel: 5, definicion: "Comer", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "飲む", hiragana: "のむ", romaji: "Nomu", nivel: 5, definicion: "Tomar, beber", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "間", hiragana: "かん、あいだ", romaji: "Kan, aida", nivel: 5, definicion: "Intervalo, período de tiempo, entre", ejemplo1: "", ejemplo2: "")
