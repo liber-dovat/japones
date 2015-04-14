@@ -8,6 +8,8 @@
 
 # http://www.jlptstudy.net/N5/N5_kanji.html
 
+##################################
+##################################
 # N5
 
 # heroku run:detached rake db:migrate
@@ -35,7 +37,14 @@ Kanji.create(kanji: "水", hiragana: "みず", romaji: "Mizu", nivel: 5, definic
 Kanji.create(kanji: "木", hiragana: "き", romaji: "Ki", nivel: 5, definicion: "Árbol, jueves", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "金", hiragana: "きん", romaji: "Kin", nivel: 5, definicion: "Oro, dinero, viernes", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "土", hiragana: "つち、ど", romaji: "Tsuchi, do", nivel: 5, definicion: "Tierra, sábado", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "日", hiragana: "ひ", romaji: "Hi", nivel: 5, definicion: "Sol, día, domingo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "日", hiragana: "にち、ひ", romaji: "Nichi, hi", nivel: 5, definicion: "Sol, día, domingo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "月よう日", hiragana: "げつようび", romaji: "Getsuyoubi", nivel: 5, definicion: "Lunes", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "火よう日", hiragana: "かようび", romaji: "Kayoubi", nivel: 5, definicion: "Martes", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "水よう日", hiragana: "すいようび", romaji: "Suiyoubi", nivel: 5, definicion: "Miércoles", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "木よう日", hiragana: "もくようび", romaji: "Mokuyoubi", nivel: 5, definicion: "Jueves", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "金よう日", hiragana: "きんようび", romaji: "Kinyoubi", nivel: 5, definicion: "Viernes", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "土よう日", hiragana: "どようび", romaji: "Doyoubi", nivel: 5, definicion: "Sábado", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "日よう日", hiragana: "にちようび", romaji: "Nichiyoubi", nivel: 5, definicion: "Domingo", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "人", hiragana: "ひと", romaji: "Hito", nivel: 5, definicion: "Persona", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "上", hiragana: "うえ", romaji: "Ue", nivel: 5, definicion: "Arriba", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "下", hiragana: "した", romaji: "Shita", nivel: 5, definicion: "Abajo", ejemplo1: "", ejemplo2: "")
@@ -141,6 +150,22 @@ Kanji.create(kanji: "新", hiragana: "しん", romaji: "Shin", nivel: 5, definic
 
 Kanji.create(kanji: "日本", hiragana: "にほん", romaji: "Nihon", nivel: 5, definicion: "Japón", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", nivel: 5, definicion: "Idioma japonés", ejemplo1: "", ejemplo2: "")
+
+##################################
+##################################
+# N4
+
+Kanji.create(kanji: "月曜日", hiragana: "げつようび", romaji: "Getsuyoubi", nivel: 4, definicion: "Lunes", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "火曜日", hiragana: "かようび", romaji: "Kayoubi", nivel: 4, definicion: "Martes", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "水曜日", hiragana: "すいようび", romaji: "Suiyoubi", nivel: 4, definicion: "Miércoles", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "木曜日", hiragana: "もくようび", romaji: "Mokuyoubi", nivel: 4, definicion: "Jueves", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "金曜日", hiragana: "きんようび", romaji: "Kinyoubi", nivel: 4, definicion: "Viernes", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "土曜日", hiragana: "どようび", romaji: "Doyoubi", nivel: 4, definicion: "Sábado", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "日曜日", hiragana: "にちようび", romaji: "Nichiyoubi", nivel: 4, definicion: "Domingo", ejemplo1: "", ejemplo2: "")
+
+##################################
+##################################
+# N3
 
 Kanji.create(kanji: "猫", hiragana: "ねこ", romaji: "Neko", nivel: 3, definicion: "Gato", ejemplo1: "", ejemplo2: "")
 
