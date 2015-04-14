@@ -19,6 +19,30 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 5vh;
+}
+
+.header {
+  padding-left: 1vh;
+  padding-right: 1vh;
+  float: left;
+  font-size: 1.7vh;
+}
+
+.h-nivel {
+  font-size: 3vh;
+}
+
+.h-nivel-div {
+  font-size: 2vh;
+  padding-right: 10vh;
+}
+
+.info {
+  font-size: 3.5vh;
+}
+
 /* Paddings */
 
 #menues {
@@ -94,14 +118,14 @@
 #tab2{
 /*-moz-transform-origin: 0% 0%; 
 -moz-transform: rotateX( 90deg ); */
-   -moz-transform: perspective(500px) scaleZ(2) rotateX(45deg);
+/*    -moz-transform: perspective(500px) scaleZ(2) rotateX(45deg); */
    height: 10vh;
    padding: 0;
-   margin: 45%;
+   margin: 42%;
    margin-bottom:-10px;
    color: black;
    position: relative; 
-   width: 10vw; /* for IE 6 */
+   width: 16vw; /* for IE 6 */
    background: #e6e6e6;
    
    -webkit-border-top-left-radius: 20px;
