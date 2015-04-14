@@ -1,5 +1,5 @@
 class InicioController < ApplicationController
-  
+   
   def index
     offset = rand(Kanji.count)
     @kanji = Kanji.offset(offset).first
