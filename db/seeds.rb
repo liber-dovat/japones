@@ -70,7 +70,7 @@ Kanji.create(kanji: "小さい", hiragana: "ちいさい", romaji: "Chisai", niv
 Kanji.create(kanji: "少し", hiragana: "すこし、しょう", romaji: "Sukoshi, shou", nivel: 5, definicion: "De a poco, poca distancia", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "食べる", hiragana: "たべる", romaji: "Taberu", nivel: 5, definicion: "Comer", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "飲む", hiragana: "のむ", romaji: "Nomu", nivel: 5, definicion: "Tomar, beber", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "間", hiragana: "かん", romaji: "Kan", nivel: 5, definicion: "Intervalo, período de tiempo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "間", hiragana: "かん、あいだ", romaji: "Kan, aida", nivel: 5, definicion: "Intervalo, período de tiempo, entre", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "行く", hiragana: "いく", romaji: "Iku", nivel: 5, definicion: "Ir", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "来る", hiragana: "くる", romaji: "Kuru", nivel: 5, definicion: "Venir, regresar", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "女", hiragana: "おんな、じょ", romaji: "Onna, jo", nivel: 5, definicion: "Mujer, femenino", ejemplo1: "", ejemplo2: "")
