@@ -54,7 +54,7 @@ Kanji.create(kanji: "今日", hiragana: "きょう", romaji: "Kyou", nivel: 5, d
 Kanji.create(kanji: "休む", hiragana: "やすむ", romaji: "Yasumu", nivel: 5, definicion: "Descansar, vacaciones", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "会う", hiragana: "あう", romaji: "Au", nivel: 5, definicion: "Encontrarse con una persona", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "何", hiragana: "なん、なに", romaji: "Nan, nani", nivel: 5, definicion: "¿Que?, cuantos", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "何時", hiragana: "いつ", romaji: "Itsu", nivel: 5, definicion: "¿Cuando?", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "何時", hiragana: "いつ、なんじ", romaji: "Itsu, nanji", nivel: 5, definicion: "¿Cuando?, ¿que hora?", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "何の", hiragana: "どの", romaji: "Dono", nivel: 5, definicion: "¿Cuál?", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "何れ", hiragana: "どれ", romaji: "Dore", nivel: 5, definicion: "¿Cuál de todos?", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "時", hiragana: "とき、じ", romaji: "Toki, ji", nivel: 5, definicion: "Tiempo, hora, ocasión", ejemplo1: "", ejemplo2: "")
