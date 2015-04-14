@@ -61,23 +61,27 @@
                   <%= image_tag("tab_response.svg", :alt => "svg tab", class: "btn", id: "tab") %>
                   <div class="col-md-6 col-md-push-3 column" id="panel_respuesta">
                      <div>
-                        <table>
-                        <tr>
-                            <th class="tg-031e"></th>
-                            <th class="tg-031e"><%= @kanji["definicion"]%></th>
-                            <th class="tg-031e"></th>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e"><%= @kanji["hiragana"]%></td>
-                            <td class="tg-031e"><%= @kanji["romaji"]%></td>
-                            <td class="tg-031e"><%= @kanji["nivel"]%></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e"><%= @kanji["ejemplo1"]%></td>
-                            <td class="tg-031e"><%= @kanji["ejemplo2"]%></td>
-                            <td class="tg-031e"></td>
-                        </tr>
-                        </table>
+                        <h2 id="infoDefinicion"><%= @kanji["definicion"]%></h2>
+                        <div class="row clearfix">
+                            <div>
+                                <div class="col-md-5 col-md-push-1 column header">
+                                    <div class="info" id="infoHiragana"><%= @kanji["hiragana"]%></div>
+                                    Hiragana
+                                </div>
+                                <div class="col-md-5 col-md-push-1 column header">
+                                    <div class="info" id="infoRomaji"><%= @kanji["romaji"]%></div>
+                                    Romaji
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row clearfix">
+                            <div class="pull-right h-nivel-div">
+                                <div class="h-nivel" id="infoNivel">N<%= @kanji["nivel"]%></div>
+                                Nivel
+                            </div>
+                        </div>
+                        
                      </div>
                   </div>
                </div>
@@ -103,11 +107,18 @@
          success: function(result){
             var msg = JSON.parse(result);
 //             console.log("inicio/siguiente");
-//             console.log(msg);
+            console.log(msg);
             $("#kanji").empty();
+            $("#infoDefinicion").empty();
+            $("#infoHiragana").empty();
+            $("#infoRomaji").empty();
+            $("#infoNivel").empty();
+            
             $("#kanji").append(msg.kanji);
-            $("#panel_respuesta").empty();
-            $("#panel_respuesta").append(msg.definicion);
+            $("#infoDefinicion").append(msg.definicion);
+            $("#infoHiragana").append(msg.hiragana);
+            $("#infoRomaji").append(msg.romaji);
+            $("#infoNivel").append("N" + msg.nivel);
          }
       }); // ajax
    });
@@ -122,29 +133,25 @@
    });
 
    function toggle_visibility(id) {
-//       alert("¡Mensaje2! " + id);
 //       $(id).stop().animate({height:'toggle'}, 500);
       $(id).animate({height:'toggle'});
    }
 
    $('#tab').on("click", function() {
-//       console.log("$('#tab').click");
-//       alert("¡Mensaje!");
       toggle_visibility('#panel_respuesta');
    });
    
    $('#nivel').on("click", function() {
-//       console.log("$('#nivel').click");
+      console.log("$('#nivel').click");
       toggle_visibility('#nivel-contenido');
    });
    
    $('#tipo').on("click", function() {
-//       console.log("$('#tipo').click");
+      console.log("$('#tipo').click");
       toggle_visibility('#tipo-contenido');
    });
 
    $(document).ready(function(){
-//       console.log("document...ready!");
       $('#panel_respuesta').hide();
       $('#nivel-contenido').hide();
       $('#tipo-contenido').hide();

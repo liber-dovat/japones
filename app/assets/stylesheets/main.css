@@ -19,6 +19,30 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 5vh;
+}
+
+.header {
+  padding-left: 1vh;
+  padding-right: 1vh;
+  float: left;
+  font-size: 1.7vh;
+}
+
+.h-nivel {
+  font-size: 3vh;
+}
+
+.h-nivel-div {
+  font-size: 2vh;
+  padding-right: 10vh;
+}
+
+.info {
+  font-size: 3.5vh;
+}
+
 /* Paddings */
 
 #menues {
