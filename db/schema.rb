@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20150410152924) do
     t.text     "kanji"
     t.text     "hiragana"
     t.text     "romaji"
-    t.integer  "nivel"
+    t.text     "nivel"
     t.string   "definicion"
     t.string   "ejemplo1"
     t.string   "ejemplo2"
