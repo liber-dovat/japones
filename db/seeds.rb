@@ -58,7 +58,7 @@ Kanji.create(kanji: "何時", hiragana: "いつ、なんじ", romaji: "Itsu, nan
 Kanji.create(kanji: "何の", hiragana: "どの", romaji: "Dono", nivel: 5, definicion: "¿Cuál?", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "何れ", hiragana: "どれ", romaji: "Dore", nivel: 5, definicion: "¿Cuál de todos?", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "時", hiragana: "とき、じ", romaji: "Toki, ji", nivel: 5, definicion: "Tiempo, hora, ocasión", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "時間", hiragana: "じかん", romaji: "Toki, ji", nivel: 5, definicion: "Hora, tiempo, intervalo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "時間", hiragana: "じかん", romaji: "Jikan", nivel: 5, definicion: "Hora, tiempo, intervalo", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "先", hiragana: "せん、さき", romaji: "Sen, saki", nivel: 5, definicion: "Previo, anterior", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "先ず", hiragana: "まず", romaji: "Mazu", nivel: 5, definicion: "Primero, en un principio, para empezar", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "先き", hiragana: "さき", romaji: "Saki", nivel: 5, definicion: "Hace algún tiempo, últimamente", ejemplo1: "", ejemplo2: "")
