@@ -118,14 +118,14 @@ h2 {
 #tab2{
 /*-moz-transform-origin: 0% 0%; 
 -moz-transform: rotateX( 90deg ); */
-   -moz-transform: perspective(500px) scaleZ(2) rotateX(45deg);
+/*    -moz-transform: perspective(500px) scaleZ(2) rotateX(45deg); */
    height: 10vh;
    padding: 0;
-   margin: 45%;
+   margin: 42%;
    margin-bottom:-10px;
    color: black;
    position: relative; 
-   width: 10vw; /* for IE 6 */
+   width: 16vw; /* for IE 6 */
    background: #e6e6e6;
    
    -webkit-border-top-left-radius: 20px;
