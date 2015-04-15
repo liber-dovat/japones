@@ -125,8 +125,6 @@
 
    function nextKanji() {
    
-      $('#siguiente').blur();
-   
       if($('#panelRespuesta').is(':visible')){
            toggle_visibility('#panelRespuesta');
       } // if
@@ -165,8 +163,6 @@
 
    function previousKanji() {
    
-      $('#previo').blur();
-   
       if($('#panelRespuesta').is(':visible')){
            toggle_visibility('#panelRespuesta');
       } // if
@@ -181,10 +177,12 @@
    }
 
    $('#siguiente').on("click", function() {
+      $('#siguiente').blur();
       nextKanji();
    });
    
    $('#previo').on("click", function() {
+      $('#previo').blur();
       previousKanji();
    });
    
