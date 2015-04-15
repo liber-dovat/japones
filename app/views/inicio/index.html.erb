@@ -101,8 +101,15 @@
 
    $('#siguiente').on("click", function() {
       $('#panel_respuesta').hide();
-      $('#nivel-contenido').hide();
-      $('#tipo-contenido').hide();
+//       $('#nivel-contenido').hide();
+
+      if($('#nivel-contenido').is(':visible')){
+           toggle_visibility('#nivel-contenido');
+      }
+      
+      if($('#tipo-contenido').is(':visible')){
+           toggle_visibility('#tipo-contenido');
+      }
 
       var url = "/inicio/siguiente/";
       $.ajax({
