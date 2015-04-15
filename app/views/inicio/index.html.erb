@@ -102,11 +102,11 @@
     $(document).keydown(function(e) {
         switch(e.which) {
             case 37: // left
-              toggle_visibility('#panel_respuesta');
+              previousKanji();              
             break;
 
             case 38: // up
-              previousKanji();
+              toggle_visibility('#panel_respuesta');
             break;
 
             case 39: // right
