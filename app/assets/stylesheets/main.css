@@ -30,11 +30,11 @@ h2 {
   font-size: 1.7vh;
 }
 
-.h-nivel {
+.hNivel {
   font-size: 3vh;
 }
 
-.h-nivel-div {
+.hNivelDiv {
   font-size: 2vh;
   padding-right: 10vh;
 }
@@ -77,12 +77,12 @@ h2 {
    margin-bottom:30px;
 }
 
-#nivel-div {
+#nivelDiv {
     float: left;
     padding: 0;
 }
 
-#tipo-div {
+#tipoDiv {
     float: right;
     padding: 0;
 }

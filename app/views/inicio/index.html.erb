@@ -9,9 +9,9 @@
                             col-xs-12
                             center-block" id="menu">
 <!--                             TEXTO -->
-                    <div id="nivel-div">
-                        <div id="nivelContenido" class="contenido">
-                            <div class="btn-group-vertical btn-block" id="nivel-grupo">
+                    <div id="nivelDiv">
+                        <div id="nivelGrupo" class="contenido">
+                            <div class="btn-group-vertical btn-block">
                                 <a class="btn btn-default" href="#">N1</a>
                                 <a class="btn btn-default" href="#">N2</a>
                                 <a class="btn btn-default" href="#">N3</a>
@@ -22,9 +22,9 @@
                         <%= image_tag("tab_n5.svg", :alt => "svg nivel", class: "btn", id: "nivel") %>
                     </div>
                     
-                    <div id="tipo-div">
-                        <div id="tipoContenido" class="contenido">
-                            <div class="btn-group-vertical btn-block" id="tipo-grupo">
+                    <div id="tipoDiv">
+                        <div id="tipoGrupo" class="contenido">
+                            <div class="btn-group-vertical btn-block">
                                 <a class="btn btn-default" href="#">Kanji</a>
                                 <a class="btn btn-default active" href="#">Hiragana</a>
                             </div>
@@ -81,8 +81,8 @@
                         </div>
                         
                         <div class="row clearfix">
-                            <div class="pull-right h-nivel-div">
-                                <div class="h-nivel" id="infoNivel">N<%= @kanji["nivel"]%></div>
+                            <div class="pull-right hNivelDiv">
+                                <div class="hNivel" id="infoNivel">N<%= @kanji["nivel"]%></div>
                                 Nivel
                             </div>
                         </div>
@@ -114,8 +114,8 @@
             break;
 
             case 40: // down
-              toggle_visibility('#nivelContenido');
-              toggle_visibility('#tipoContenido');
+              toggle_visibility('#nivelGrupo');
+              toggle_visibility('#tipoGrupo');
             break;
 
             default: return; // exit this handler for other keys
@@ -128,12 +128,12 @@
            toggle_visibility('#panelRespuesta');
       } // if
 
-      if($('#nivelContenido').is(':visible')){
-           toggle_visibility('#nivelContenido');
+      if($('#nivelGrupo').is(':visible')){
+           toggle_visibility('#nivelGrupo');
       } // if
       
-      if($('#tipoContenido').is(':visible')){
-           toggle_visibility('#tipoContenido');
+      if($('#tipoGrupo').is(':visible')){
+           toggle_visibility('#tipoGrupo');
       } // if
 
       var url = "/inicio/siguiente/";
@@ -165,12 +165,12 @@
            toggle_visibility('#panelRespuesta');
       } // if
       
-      if($('#nivelContenido').is(':visible')){
-           toggle_visibility('#nivelContenido');
+      if($('#nivelGrupo').is(':visible')){
+           toggle_visibility('#nivelGrupo');
       } // if
       
-      if($('#tipoContenido').is(':visible')){
-           toggle_visibility('#tipoContenido');
+      if($('#tipoGrupo').is(':visible')){
+           toggle_visibility('#tipoGrupo');
       } // if
    }
 
@@ -193,18 +193,18 @@
    
    $('#nivel').on("click", function() {
       console.log("$('#nivel').click");
-      toggle_visibility('#nivelContenido');
+      toggle_visibility('#nivelGrupo');
    });
    
    $('#tipo').on("click", function() {
       console.log("$('#tipo').click");
-      toggle_visibility('#tipoContenido');
+      toggle_visibility('#tipoGrupo');
    });
 
    $(document).ready(function(){
       $('#panelRespuesta').hide();
-      $('#nivelContenido').hide();
-      $('#tipoContenido').hide();
+      $('#nivelGrupo').hide();
+      $('#tipoGrupo').hide();
    });
 
    function ajax(URL, successCallback, errorCallback){
