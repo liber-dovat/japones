@@ -107,7 +107,7 @@ Kanji.create(kanji: "天気", hiragana: "てんき", romaji: "Tenki", nivel: 5, 
 Kanji.create(kanji: "生", hiragana: "せい", romaji: "Sei", nivel: 5, definicion: "Vida, vivir", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "生き", hiragana: "いき", romaji: "Iki", nivel: 5, definicion: "Estar vivo", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "気", hiragana: "き", romaji: "Ki", nivel: 5, definicion: "Espíritu, mente, corazón", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "元気", hiragana: "げんき", romaji: "Genki", nivel: 5, definicion: "Salud, saludable", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "元気", hiragana: "げんき", romaji: "Genki", nivel: 5, definicion: "Saludable, enérgico, vigoroso", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "本", hiragana: "ほん", romaji: "Hon", nivel: 5, definicion: "Libro", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "新しい", hiragana: "あたらしい", romaji: "Atarashii", nivel: 5, definicion: "Nuevo, reciente", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "新", hiragana: "しん", romaji: "Shin", nivel: 5, definicion: "Nuevo", ejemplo1: "", ejemplo2: "")
