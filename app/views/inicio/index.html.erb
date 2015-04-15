@@ -100,16 +100,19 @@
 <script>
 
    $('#siguiente').on("click", function() {
-      $('#panel_respuesta').hide();
-//       $('#nivel-contenido').hide();
+//       $('#panel_respuesta').hide();
+
+      if($('#panel_respuesta').is(':visible')){
+           toggle_visibility('#panel_respuesta');
+      } // if
 
       if($('#nivel-contenido').is(':visible')){
            toggle_visibility('#nivel-contenido');
-      }
+      } // if
       
       if($('#tipo-contenido').is(':visible')){
            toggle_visibility('#tipo-contenido');
-      }
+      } // if
 
       var url = "/inicio/siguiente/";
       $.ajax({
@@ -136,9 +139,17 @@
    });
 
    $('#previo').on("click", function() {
-      $('#panel_respuesta').hide();
-      $('#nivel-contenido').hide();
-      $('#tipo-contenido').hide();
+      if($('#panel_respuesta').is(':visible')){
+           toggle_visibility('#panel_respuesta');
+      } // if
+      
+      if($('#nivel-contenido').is(':visible')){
+           toggle_visibility('#nivel-contenido');
+      } // if
+      
+      if($('#tipo-contenido').is(':visible')){
+           toggle_visibility('#tipo-contenido');
+      } // if
 
       console.log("$('#previo').click");
       // llamar por ajax
