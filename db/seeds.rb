@@ -112,6 +112,7 @@ Kanji.create(kanji: "元気", hiragana: "げんき", romaji: "Genki", nivel: 5, 
 Kanji.create(kanji: "本", hiragana: "ほん", romaji: "Hon", nivel: 5, definicion: "Libro", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "新しい", hiragana: "あたらしい", romaji: "Atarashii", nivel: 5, definicion: "Nuevo, reciente", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "新", hiragana: "しん", romaji: "Shin", nivel: 5, definicion: "Nuevo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "車", hiragana: "くるま", romaji: "Kuruma", nivel: 5, definicion: "Auto, automóvil", ejemplo1: "", ejemplo2: "")
 
 # 北
 # 南
@@ -140,7 +141,6 @@ Kanji.create(kanji: "新", hiragana: "しん", romaji: "Shin", nivel: 5, definic
 # 読
 # 買
 # 足
-# 車
 # 週
 # 道
 # 長
@@ -155,6 +155,8 @@ Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", ni
 ##################################
 ##################################
 # N4
+
+Kanji.create(kanji: "自動車", hiragana: "じどうしゃ", romaji: "Jidousha", nivel: 5, definicion: "Auto, automóvil", ejemplo1: "", ejemplo2: "")
 
 Kanji.create(kanji: "元", hiragana: "げん", romaji: "Gen", nivel: 4, definicion: "Comienzo", ejemplo1: "", ejemplo2: "")
 
