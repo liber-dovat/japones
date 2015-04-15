@@ -99,9 +99,26 @@
 
 <script>
 
-   $('#siguiente').on("click", function() {
-//       $('#panel_respuesta').hide();
+//     $(document).keydown(function(e) {
+//         switch(e.which) {
+//             case 37: // left
+//             break;
+// 
+//             case 38: // up
+//             break;
+// 
+//             case 39: // right
+//             break;
+// 
+//             case 40: // down
+//             break;
+// 
+//             default: return; // exit this handler for other keys
+//         }
+//         e.preventDefault(); // prevent the default action (scroll / move caret)
+//     });
 
+   function nextKanji() {
       if($('#panel_respuesta').is(':visible')){
            toggle_visibility('#panel_respuesta');
       } // if
@@ -136,9 +153,9 @@
             $("#infoNivel").append("N" + msg.nivel);
          }
       }); // ajax
-   });
+   }
 
-   $('#previo').on("click", function() {
+   function previusKanji() {
       if($('#panel_respuesta').is(':visible')){
            toggle_visibility('#panel_respuesta');
       } // if
@@ -150,11 +167,16 @@
       if($('#tipo-contenido').is(':visible')){
            toggle_visibility('#tipo-contenido');
       } // if
+   }
 
-      console.log("$('#previo').click");
-      // llamar por ajax
+   $('#previo').on("click", function() {
+      previusKanji();
    });
 
+   $('#siguiente').on("click", function() {
+      nextKanji();
+   });
+   
    function toggle_visibility(id) {
 //       $(id).stop().animate({height:'toggle'}, 500);
       $(id).animate({height:'toggle'});
