@@ -156,6 +156,8 @@ Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", ni
 ##################################
 # N4
 
+Kanji.create(kanji: "元", hiragana: "げん", romaji: "Gen", nivel: 4, definicion: "Comienzo", ejemplo1: "", ejemplo2: "")
+
 Kanji.create(kanji: "月曜日", hiragana: "げつようび", romaji: "Getsuyoubi", nivel: 4, definicion: "Lunes", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "火曜日", hiragana: "かようび", romaji: "Kayoubi", nivel: 4, definicion: "Martes", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "水曜日", hiragana: "すいようび", romaji: "Suiyoubi", nivel: 4, definicion: "Miércoles", ejemplo1: "", ejemplo2: "")
