@@ -99,24 +99,27 @@
 
 <script>
 
-//     $(document).keydown(function(e) {
-//         switch(e.which) {
-//             case 37: // left
-//             break;
-// 
-//             case 38: // up
-//             break;
-// 
-//             case 39: // right
-//             break;
-// 
-//             case 40: // down
-//             break;
-// 
-//             default: return; // exit this handler for other keys
-//         }
-//         e.preventDefault(); // prevent the default action (scroll / move caret)
-//     });
+    $(document).keydown(function(e) {
+        switch(e.which) {
+            case 37: // left
+              toggle_visibility('#panel_respuesta');
+            break;
+
+            case 38: // up
+              previousKanji();
+            break;
+
+            case 39: // right
+              nextKanji();
+            break;
+
+            case 40: // down
+            break;
+
+            default: return; // exit this handler for other keys
+        }
+        e.preventDefault(); // prevent the default action (scroll / move caret)
+    });
 
    function nextKanji() {
       if($('#panel_respuesta').is(':visible')){
@@ -155,7 +158,7 @@
       }); // ajax
    }
 
-   function previusKanji() {
+   function previousKanji() {
       if($('#panel_respuesta').is(':visible')){
            toggle_visibility('#panel_respuesta');
       } // if
@@ -170,7 +173,7 @@
    }
 
    $('#previo').on("click", function() {
-      previusKanji();
+      previousKanji();
    });
 
    $('#siguiente').on("click", function() {
