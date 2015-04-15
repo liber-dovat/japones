@@ -10,7 +10,7 @@
                             center-block" id="menu">
 <!--                             TEXTO -->
                     <div id="nivel-div">
-                        <div id="nivel-contenido" class="contenido">
+                        <div id="nivelContenido" class="contenido">
                             <div class="btn-group-vertical btn-block" id="nivel-grupo">
                                 <a class="btn btn-default" href="#">N1</a>
                                 <a class="btn btn-default" href="#">N2</a>
@@ -23,7 +23,7 @@
                     </div>
                     
                     <div id="tipo-div">
-                        <div id="tipo-contenido" class="contenido">
+                        <div id="tipoContenido" class="contenido">
                             <div class="btn-group-vertical btn-block" id="tipo-grupo">
                                 <a class="btn btn-default" href="#">Kanji</a>
                                 <a class="btn btn-default active" href="#">Hiragana</a>
@@ -64,7 +64,7 @@
                         Respuesta
                     </div>
                   </div>-->
-                  <div class="col-md-6 col-md-push-3 column" id="panel_respuesta">
+                  <div class="col-md-6 col-md-push-3 column" id="panelRespuesta">
                      <div>
                         <h2 id="infoDefinicion"><%= @kanji["definicion"]%></h2>
                         <div class="row clearfix">
@@ -106,7 +106,7 @@
             break;
 
             case 38: // up
-              toggle_visibility('#panel_respuesta');
+              toggle_visibility('#panelRespuesta');
             break;
 
             case 39: // right
@@ -114,6 +114,8 @@
             break;
 
             case 40: // down
+              toggle_visibility('#nivelContenido');
+              toggle_visibility('#tipoContenido');
             break;
 
             default: return; // exit this handler for other keys
@@ -122,16 +124,16 @@
     });
 
    function nextKanji() {
-      if($('#panel_respuesta').is(':visible')){
-           toggle_visibility('#panel_respuesta');
+      if($('#panelRespuesta').is(':visible')){
+           toggle_visibility('#panelRespuesta');
       } // if
 
-      if($('#nivel-contenido').is(':visible')){
-           toggle_visibility('#nivel-contenido');
+      if($('#nivelContenido').is(':visible')){
+           toggle_visibility('#nivelContenido');
       } // if
       
-      if($('#tipo-contenido').is(':visible')){
-           toggle_visibility('#tipo-contenido');
+      if($('#tipoContenido').is(':visible')){
+           toggle_visibility('#tipoContenido');
       } // if
 
       var url = "/inicio/siguiente/";
@@ -159,16 +161,16 @@
    }
 
    function previousKanji() {
-      if($('#panel_respuesta').is(':visible')){
-           toggle_visibility('#panel_respuesta');
+      if($('#panelRespuesta').is(':visible')){
+           toggle_visibility('#panelRespuesta');
       } // if
       
-      if($('#nivel-contenido').is(':visible')){
-           toggle_visibility('#nivel-contenido');
+      if($('#nivelContenido').is(':visible')){
+           toggle_visibility('#nivelContenido');
       } // if
       
-      if($('#tipo-contenido').is(':visible')){
-           toggle_visibility('#tipo-contenido');
+      if($('#tipoContenido').is(':visible')){
+           toggle_visibility('#tipoContenido');
       } // if
    }
 
@@ -186,23 +188,23 @@
    }
 
    $('#tab').on("click", function() {
-      toggle_visibility('#panel_respuesta');
+      toggle_visibility('#panelRespuesta');
    });
    
    $('#nivel').on("click", function() {
       console.log("$('#nivel').click");
-      toggle_visibility('#nivel-contenido');
+      toggle_visibility('#nivelContenido');
    });
    
    $('#tipo').on("click", function() {
       console.log("$('#tipo').click");
-      toggle_visibility('#tipo-contenido');
+      toggle_visibility('#tipoContenido');
    });
 
    $(document).ready(function(){
-      $('#panel_respuesta').hide();
-      $('#nivel-contenido').hide();
-      $('#tipo-contenido').hide();
+      $('#panelRespuesta').hide();
+      $('#nivelContenido').hide();
+      $('#tipoContenido').hide();
    });
 
    function ajax(URL, successCallback, errorCallback){
