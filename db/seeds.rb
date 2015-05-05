@@ -65,7 +65,7 @@ Kanji.create(kanji: "先き", hiragana: "さき", romaji: "Saki", nivel: 5, defi
 Kanji.create(kanji: "入る", hiragana: "はいる、いり", romaji: "Hairu, iri", nivel: 5, definicion: "Entrar", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "円", hiragana: "えん", romaji: "En", nivel: 5, definicion: "Yen, moneda, dinero, círculo", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "出", hiragana: "で", romaji: "De", nivel: 5, definicion: "Salir", ejemplo1: "", ejemplo2: "")
-Kanji.create(kanji: "出す", hiragana: "だす", romaji: "De", nivel: 5, definicion: "Enviar, salir", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "出す", hiragana: "だす", romaji: "Dasu", nivel: 5, definicion: "Enviar, salir", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "分", hiragana: "ふん、ぶん", romaji: "Fun, bun", nivel: 5, definicion: "Minuto, parte, segmento, grado", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "前", hiragana: "まえ、ぜん", romaji: "Mae, zen", nivel: 5, definicion: "Antes, previo, al frente, adelante", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "後", hiragana: "うしろ", romaji: "Ushiro", nivel: 5, definicion: "Atrás, hacia la espalda", ejemplo1: "", ejemplo2: "")
