@@ -156,7 +156,7 @@ Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", ni
 ##################################
 # N4
 
-Kanji.create(kanji: "自動車", hiragana: "じどうしゃ", romaji: "Jidousha", nivel: 5, definicion: "Auto, automóvil", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "自動車", hiragana: "じどうしゃ", romaji: "Jidousha", nivel: 4, definicion: "Auto, automóvil", ejemplo1: "", ejemplo2: "")
 
 Kanji.create(kanji: "元", hiragana: "げん", romaji: "Gen", nivel: 4, definicion: "Comienzo", ejemplo1: "", ejemplo2: "")
 
