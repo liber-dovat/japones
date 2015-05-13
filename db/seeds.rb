@@ -164,6 +164,7 @@ Kanji.create(kanji: "高い", hiragana: "たかい", romaji: "Takai", nivel: 5, 
 Kanji.create(kanji: "魚", hiragana: " さかな ", romaji: "Sakana", nivel: 5, definicion: "Pez", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "日本", hiragana: "にほん", romaji: "Nihon", nivel: 5, definicion: "Japón", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", nivel: 5, definicion: "Idioma japonés", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "家", hiragana: "うち", romaji: "Uchi", nivel: 5, definicion: "Casa", ejemplo1: "", ejemplo2: "")
 
 ##################################
 ##################################
