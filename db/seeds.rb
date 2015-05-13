@@ -113,42 +113,55 @@ Kanji.create(kanji: "本", hiragana: "ほん", romaji: "Hon", nivel: 5, definici
 Kanji.create(kanji: "新しい", hiragana: "あたらしい", romaji: "Atarashii", nivel: 5, definicion: "Nuevo, reciente", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "新", hiragana: "しん", romaji: "Shin", nivel: 5, definicion: "Nuevo", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "車", hiragana: "くるま", romaji: "Kuruma", nivel: 5, definicion: "Auto, automóvil", ejemplo1: "", ejemplo2: "")
-
-# 北
-# 南
-# 古
-# 名
-# 国
-# 外
-# 多
-# 学
-# 安
-# 店
-# 書
-# 東
-# 校
-# 毎
-# 社
-# 空
-# 立
-# 聞
-# 花
-# 西
-# 見
-# 言
-# 話
-# 語
-# 読
-# 買
-# 足
-# 週
-# 道
-# 長
-# 電
-# 駅
-# 高
-# 魚
-
+Kanji.create(kanji: "北", hiragana: "きた", romaji: "Kita", nivel: 5, definicion: "Norte", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "南", hiragana: "みなみ", romaji: "Minami", nivel: 5, definicion: "Sur", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "東", hiragana: "ひがし", romaji: "Higashi", nivel: 5, definicion: "Este", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "西", hiragana: "にし", romaji: "Nishi", nivel: 5, definicion: "Oeste", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "古", hiragana: "ふる、ふるい", romaji: "Furu, furui", nivel: 5, definicion: "Viejo, antiguo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "名", hiragana: "な", romaji: "Na", nivel: 5, definicion: "Nombre, título, fama, reputación", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "名前", hiragana: "なまえ", romaji: "Namae", nivel: 5, definicion: "Nombre propio", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "国", hiragana: "くに", romaji: "Kuni", nivel: 5, definicion: "País, estado, gobierno, región", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "外", hiragana: "そと", romaji: "Soto", nivel: 5, definicion: "Afuera, exterior", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "外国", hiragana: "がいこく", romaji: "Gaikoku", nivel: 5, definicion: "País extranjero", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "外国人", hiragana: "がいこくじん", romaji: "Gaikokujin", nivel: 5, definicion: "Persona extranjera", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "多", hiragana: "た", romaji: "Ta", nivel: 5, definicion: "Muchos, frecuente", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "多い", hiragana: "おおい", romaji: "Ooi", nivel: 5, definicion: "Bastante, demasiado, mucho", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "多分", hiragana: "たぶん", romaji: "Tabun", nivel: 5, definicion: "Quizá, probablemente", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "学", hiragana: "がく", romaji: "Gaku", nivel: 5, definicion: "Colegio, conocimiento", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "学校", hiragana: "がっこう", romaji: "Gakkou", nivel: 5, definicion: "Colegio, escuela", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "安い", hiragana: "やすい", romaji: "Yasui", nivel: 5, definicion: "Barato", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "店", hiragana: "みせ、てん", romaji: "Mise, Ten", nivel: 5, definicion: "Tienda, establecimiento, restorán", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "書く", hiragana: "かく", romaji: "kaku", nivel: 5, definicion: "Escribir", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "書", hiragana: "しょ", romaji: "Sho", nivel: 5, definicion: "Documento, libro", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "校", hiragana: "こう", romaji: "Kou", nivel: 5, definicion: "Colegio, escuela", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎", hiragana: "まい", romaji: "Mai", nivel: 5, definicion: "Cada evento, cada uno", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎日", hiragana: "まいにち", romaji: "Mainichi", nivel: 5, definicion: "Todos los días", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎朝", hiragana: "まいあさ", romaji: "Maiasa", nivel: 5, definicion: "Todas las mañanas", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎年", hiragana: "まいとし", romaji: "Maitoshi", nivel: 5, definicion: "Todos los años", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "社", hiragana: "しゃ", romaji: "Sha", nivel: 5, definicion: "Empresa, asociación, sociedad", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "空", hiragana: "そら", romaji: "Sora", nivel: 5, definicion: "Cielo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "立つ", hiragana: "たつ", romaji: "Tatsu", nivel: 5, definicion: "Estar de pie", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "聞く", hiragana: "きく", romaji: "Kiku", nivel: 5, definicion: "Escuchar", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "花", hiragana: "はな", romaji: "Hana", nivel: 5, definicion: "Flor", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "見る", hiragana: "みる", romaji: "Miru", nivel: 5, definicion: "Mirar, observar", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "言う", hiragana: "いう", romaji: "Iu", nivel: 5, definicion: "Decir", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "話", hiragana: "はなし", romaji: "hanashi", nivel: 5, definicion: "Hablar, conversar, decir", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "話す", hiragana: "はなす", romaji: "hanasu", nivel: 5, definicion: "Hablar, conversar, decir", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "語", hiragana: "ご", romaji: "Go", nivel: 5, definicion: "Idioma, lenguaje", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "読む", hiragana: "よむ", romaji: "Yomu", nivel: 5, definicion: "Leer", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "方", hiragana: "かた", romaji: "Kata", nivel: 5, definicion: "Método, dirección", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "買う", hiragana: "かう", romaji: "Kau", nivel: 5, definicion: "Comprar", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "足", hiragana: "あし", romaji: "Ashi", nivel: 5, definicion: "Pie, pierna", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "週", hiragana: "しゅう", romaji: "Shuu", nivel: 5, definicion: "Semana", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "週間", hiragana: "しゅうかん", romaji: "Shuukan", nivel: 5, definicion: "Semanalmente", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "道", hiragana: "みち", romaji: "Michi", nivel: 5, definicion: "Calle, camino, vía, ruta", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "長い", hiragana: "ながい、ちょう", romaji: "Nagai, choo", nivel: 5, definicion: "Largo, jefe, líder", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "電", hiragana: "でん", romaji: "Den", nivel: 5, definicion: "Electricidad", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "電車", hiragana: "でんしゃ", romaji: "Densha", nivel: 5, definicion: "Tren eléctrico", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "電話", hiragana: "でんわ", romaji: "Denwa", nivel: 5, definicion: "Teléfono", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "駅", hiragana: "えき", romaji: "Eki", nivel: 5, definicion: "Estación", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "高い", hiragana: "たかい", romaji: "Takai", nivel: 5, definicion: "Alto, caro", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "魚", hiragana: " さかな ", romaji: "Sakana", nivel: 5, definicion: "Pez", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "日本", hiragana: "にほん", romaji: "Nihon", nivel: 5, definicion: "Japón", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", nivel: 5, definicion: "Idioma japonés", ejemplo1: "", ejemplo2: "")
 
@@ -156,10 +169,12 @@ Kanji.create(kanji: "日本語", hiragana: "にほんご", romaji: "Nihongo", ni
 ##################################
 # N4
 
+Kanji.create(kanji: "虫", hiragana: "むし", romaji: "Mushi", nivel: 4, definicion: "Insecto", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "週末", hiragana: "しゅうまつ", romaji: "Shuumatsu", nivel: 4, definicion: "Fin de semana", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "歩く", hiragana: "あるく", romaji: "Aruku", nivel: 4, definicion: "Caminar", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "走る", hiragana: "はしる", romaji: "Hashiru", nivel: 4, definicion: "Correr", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "自動車", hiragana: "じどうしゃ", romaji: "Jidousha", nivel: 4, definicion: "Auto, automóvil", ejemplo1: "", ejemplo2: "")
-
 Kanji.create(kanji: "元", hiragana: "げん", romaji: "Gen", nivel: 4, definicion: "Comienzo", ejemplo1: "", ejemplo2: "")
-
 Kanji.create(kanji: "月曜日", hiragana: "げつようび", romaji: "Getsuyoubi", nivel: 4, definicion: "Lunes", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "火曜日", hiragana: "かようび", romaji: "Kayoubi", nivel: 4, definicion: "Martes", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "水曜日", hiragana: "すいようび", romaji: "Suiyoubi", nivel: 4, definicion: "Miércoles", ejemplo1: "", ejemplo2: "")
@@ -167,11 +182,25 @@ Kanji.create(kanji: "木曜日", hiragana: "もくようび", romaji: "Mokuyoubi
 Kanji.create(kanji: "金曜日", hiragana: "きんようび", romaji: "Kinyoubi", nivel: 4, definicion: "Viernes", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "土曜日", hiragana: "どようび", romaji: "Doyoubi", nivel: 4, definicion: "Sábado", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "日曜日", hiragana: "にちようび", romaji: "Nichiyoubi", nivel: 4, definicion: "Domingo", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎週", hiragana: "まいしゅう", romaji: "Maishuu", nivel: 4, definicion: "Todas los semanas", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎晩", hiragana: "まいばん", romaji: "Maiban", nivel: 4, definicion: "Todas los noches", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎月", hiragana: "まいつき", romaji: "Maitsuki", nivel: 4, definicion: "Todos los meses", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "毎回", hiragana: "まいかい", romaji: "Maikai", nivel: 4, definicion: "Cada vez", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "社会", hiragana: "しゃかい", romaji: "Shakai", nivel: 4, definicion: "Sociedad, público, comunidad", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "読み方", hiragana: "よかた", romaji: "Yomikata", nivel: 4, definicion: "Forma de leer", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "弱い", hiragana: "よわい", romaji: "Yowai", nivel: 4, definicion: "Débil", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "強い", hiragana: "つよい", romaji: "Tsuyoi", nivel: 4, definicion: "Fuerte", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "電池", hiragana: "でんち", romaji: "Denchi", nivel: 4, definicion: "Pila, batería", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "池", hiragana: "いけ", romaji: "Ike", nivel: 4, definicion: "Estanque", ejemplo1: "", ejemplo2: "")
+Kanji.create(kanji: "地", hiragana: "ち", romaji: "Chi", nivel: 4, definicion: "Tierra, piso, terreno", ejemplo1: "", ejemplo2: "")
+
+# Kanji.create(kanji: "見", hiragana: "けん", romaji: "Ken", nivel: 5, definicion: "Mirar, observar", ejemplo1: "", ejemplo2: "")
 
 ##################################
 ##################################
 # N3
 
+Kanji.create(kanji: "言葉", hiragana: "ことば", romaji: "Kotoba", nivel: 3, definicion: "Palabra, lenguaje", ejemplo1: "", ejemplo2: "")
 Kanji.create(kanji: "猫", hiragana: "ねこ", romaji: "Neko", nivel: 3, definicion: "Gato", ejemplo1: "", ejemplo2: "")
 
 Kanji.create(kanji: "自動販売機", hiragana: "じどうはんばいき", romaji: "jidouhanbaiki",  nivel: 3, definicion: "Máquina expendedora", ejemplo1: "", ejemplo2: "")
