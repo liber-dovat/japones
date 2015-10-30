@@ -18,9 +18,9 @@ ActiveRecord::Schema.define(version: 20150410152924) do
 
   create_table "kanjis", force: :cascade do |t|
     t.text     "kanji"
-    t.text     "hiragana"
-    t.text     "romaji"
-    t.text     "nivel"
+    t.string   "hiragana"
+    t.string   "romaji"
+    t.integer  "nivel"
     t.string   "definicion"
     t.string   "ejemplo1"
     t.string   "ejemplo2"

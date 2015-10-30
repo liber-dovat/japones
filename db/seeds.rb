@@ -12,6 +12,23 @@
 ##################################
 # N5
 
+# sudo -u postgres createuser <user> -s
+# sudo -u postgres psql
+# postgres=# \password <user>
+
+# createdb -Ojapones japones_development
+# createdb -Ojapones japones_test
+# createdb -Ojapones japones_production
+# psql -U japones japones_development
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+#local   all             japones                                 md5
+
+# rake db:create:all
+# rake db:create
+# rake db:migrate
+# rake db:setup
+# rake db:seed
+
 # heroku run:detached rake db:migrate
 # heroku run:detached rake db:setup
 # heroku run:detached rake db:seed
