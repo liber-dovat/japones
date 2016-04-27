@@ -146,8 +146,10 @@
            toggle_visibility('#tipoGrupo');
       } // if
 
-      if (indiceDelArray < ultimoElemento){
-        var url = "/inicio/" + listaDeKanjis[indiceDelArray+1];
+      indiceDelArray++;
+
+      if (indiceDelArray <= ultimoElemento){
+        var url = "/inicio/" + listaDeKanjis[indiceDelArray];
       }else{
         var url = "/inicio/siguiente/";
       }      
@@ -173,15 +175,12 @@
             $("#infoNivel").append("N" + msg.nivel);
 
             // agrego el kanji al array
-            if (indiceDelArray == ultimoElemento){
+            if (indiceDelArray > ultimoElemento){
               listaDeKanjis.push(msg.id);
               ultimoElemento++;
-              indiceDelArray++;
               if (listaDeKanjis.length != 0){
                 console.log(listaDeKanjis[ultimoElemento]);
               } // if
-            }else{
-              indiceDelArray++;
             }// if
          }
       }); // ajax
