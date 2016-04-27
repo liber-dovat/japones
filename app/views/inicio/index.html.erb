@@ -147,8 +147,7 @@
       } // if
 
       if (indiceDelArray < ultimoElemento){
-        indiceDelArray++;
-        var url = "/inicio/" + listaDeKanjis[indiceDelArray];
+        var url = "/inicio/" + listaDeKanjis[indiceDelArray+1];
       }else{
         var url = "/inicio/siguiente/";
       }      
@@ -177,11 +176,13 @@
             if (indiceDelArray == ultimoElemento){
               listaDeKanjis.push(msg.id);
               ultimoElemento++;
-              indiceDelArray = ultimoElemento;
+              indiceDelArray++;
               if (listaDeKanjis.length != 0){
                 console.log(listaDeKanjis[ultimoElemento]);
               } // if
-          }
+            }else{
+              indiceDelArray++;
+            }// if
          }
       }); // ajax
    }
