@@ -15,5 +15,10 @@ class InicioController < ApplicationController
     
     render :json => @kanji
   end
+
+  def id
+    @kanji = Kanji.find_by_id(params[:id])
+    render :json => @kanji
+  end
   
 end

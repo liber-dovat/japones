@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   root 'inicio#index'
 
   get 'inicio/siguiente' => 'inicio#siguiente'
+  get 'inicio/:id'       => 'inicio#id'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

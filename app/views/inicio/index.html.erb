@@ -103,6 +103,10 @@
 
 <script>
 
+    var listaDeKanjis = [];
+    var ultimoElemento = -1; // si el array es no vacio, indica la posicion del ultimo elemento en el array
+    var indiceDelArray = -1;
+
     $(document).keydown(function(e) {
         switch(e.which) {
             case 37: // left
@@ -142,7 +146,65 @@
            toggle_visibility('#tipoGrupo');
       } // if
 
-      var url = "/inicio/siguiente/";
+      if (indiceDelArray < ultimoElemento){
+        indiceDelArray++;
+        var url = "/inicio/" + listaDeKanjis[indiceDelArray];
+      }else{
+        var url = "/inicio/siguiente/";
+      }      
+
+      $.ajax({
+         url: url,
+         type: 'GET',
+         dataType: 'html',
+         success: function(result){
+            var msg = JSON.parse(result);
+//             console.log("inicio/siguiente");
+            console.log(msg);
+            $("#kanji").empty();
+            $("#infoDefinicion").empty();
+            $("#infoHiragana").empty();
+            $("#infoRomaji").empty();
+            $("#infoNivel").empty();
+            
+            $("#kanji").append(msg.kanji);
+            $("#infoDefinicion").append(msg.definicion);
+            $("#infoHiragana").append(msg.hiragana);
+            $("#infoRomaji").append(msg.romaji);
+            $("#infoNivel").append("N" + msg.nivel);
+
+            // agrego el kanji al array
+            if (indiceDelArray == ultimoElemento){
+              listaDeKanjis.push(msg.id);
+              ultimoElemento++;
+              indiceDelArray = ultimoElemento;
+              if (listaDeKanjis.length != 0){
+                console.log(listaDeKanjis[ultimoElemento]);
+              } // if
+          }
+         }
+      }); // ajax
+   }
+
+   function previousKanji() {
+   
+      if($('#panelRespuesta').is(':visible')){
+           toggle_visibility('#panelRespuesta');
+      } // if
+
+      if($('#nivelGrupo').is(':visible')){
+           toggle_visibility('#nivelGrupo');
+      } // if
+      
+      if($('#tipoGrupo').is(':visible')){
+           toggle_visibility('#tipoGrupo');
+      } // if
+
+      if (indiceDelArray > 0){
+        indiceDelArray--;
+      } // if
+
+      var url = "/inicio/" + listaDeKanjis[indiceDelArray];
       $.ajax({
          url: url,
          type: 'GET',
@@ -164,21 +226,6 @@
             $("#infoNivel").append("N" + msg.nivel);
          }
       }); // ajax
-   }
-
-   function previousKanji() {
-   
-      if($('#panelRespuesta').is(':visible')){
-           toggle_visibility('#panelRespuesta');
-      } // if
-      
-      if($('#nivelGrupo').is(':visible')){
-           toggle_visibility('#nivelGrupo');
-      } // if
-      
-      if($('#tipoGrupo').is(':visible')){
-           toggle_visibility('#tipoGrupo');
-      } // if
    }
 
    $('#siguiente').on("click", function() {
