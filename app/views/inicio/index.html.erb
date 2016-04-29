@@ -106,6 +106,7 @@
     var listaDeKanjis = [];
     var ultimoElemento = -1; // si el array es no vacio, indica la posicion del ultimo elemento en el array
     var indiceDelArray = -1;
+    var nivel = 1;
 
     $(document).keydown(function(e) {
         switch(e.which) {
@@ -151,7 +152,7 @@
       if (indiceDelArray <= ultimoElemento){
         var url = "/inicio/" + listaDeKanjis[indiceDelArray];
       }else{
-        var url = "/inicio/siguiente/";
+        var url = "/inicio/siguiente/" + nivel;
       }      
 
       $.ajax({

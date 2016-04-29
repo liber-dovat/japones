@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'inicio#index'
 
-  get 'inicio/siguiente' => 'inicio#siguiente'
-  get 'inicio/:id'       => 'inicio#id'
+  get 'inicio/siguiente/:nivel' => 'inicio#siguiente'
+  get 'inicio/:id'              => 'inicio#id'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
