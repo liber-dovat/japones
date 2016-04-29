@@ -261,6 +261,10 @@
       $('#panelRespuesta').hide();
       $('#nivelGrupo').hide();
       $('#tipoGrupo').hide();
+
+      listaDeKanjis.push(<%= @kanji["id"]%>);
+      ultimoElemento++;
+      indiceDelArray++;
    });
 
    function ajax(URL, successCallback, errorCallback){
